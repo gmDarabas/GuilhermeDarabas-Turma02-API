@@ -4,11 +4,17 @@
 
 ## GitHub Actions
 
-[![Node.js CI](https://github.com/ugioni/integration-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/integration-tests-jest/actions/workflows/node.js.yml)
-
-## SonarCloud
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_integration-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_integration-tests-jest)
+<p>
+  <a href="https://sonarcloud.io/summary/new_code?id=gmDarabas_GuilhermeDarabas-Turma02-API">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=gmDarabas_GuilhermeDarabas-Turma02-API&metric=alert_status" alt="Quality Gate Status" />
+  </a>
+  <a href="https://sonarcloud.io/summary/new_code?id=gmDarabas_GuilhermeDarabas-Turma02-API">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=gmDarabas_GuilhermeDarabas-Turma02-API&metric=code_smells" alt="Code Smells" />
+  </a>
+  <a href="https://sonarcloud.io/summary/new_code?id=gmDarabas_GuilhermeDarabas-Turma02-API">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=gmDarabas_GuilhermeDarabas-Turma02-API&metric=coverage" alt="Coverage" />
+  </a>
+</p>
 
 # Getting Started
 
