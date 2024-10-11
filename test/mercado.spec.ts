@@ -159,6 +159,35 @@ describe('Mercado API', () => {
           ],
         });
     });
+
+    it('Deve remover uma fruta com sucesso', async () => {
+      const nome = faker.food.fruit();
+      const valor = faker.number.int({ min: 0, max: 100 })
+
+      const frutaId = await pactum.spec()
+        .post(`${baseUrl}/mercado/${mercadoId}/produtos/hortifruit/frutas`)
+        .withJson({
+          nome,
+          valor
+        })
+        .expectStatus(201)
+        .expectBodyContains('adicionado com sucesso')
+        .expectBodyContains(nome)
+        .expectBodyContains(valor)
+        .expectJsonLike({
+          product_item: {
+            nome,
+            valor
+          }
+        })
+        .returns('product_item.id')
+
+        await pactum.spec()
+          .delete(`${baseUrl}/mercado/${mercadoId}/produtos/hortifruit/frutas/${frutaId}`)
+          .expectStatus(200)
+          .expectBodyContains('removido com sucesso')
+    });
+
   })
   afterAll(() => p.reporter.end());
 
