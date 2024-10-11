@@ -11,9 +11,6 @@
   <a href="https://sonarcloud.io/summary/new_code?id=gmDarabas_GuilhermeDarabas-Turma02-API">
     <img src="https://sonarcloud.io/api/project_badges/measure?project=gmDarabas_GuilhermeDarabas-Turma02-API&metric=code_smells" alt="Code Smells" />
   </a>
-  <a href="https://sonarcloud.io/summary/new_code?id=gmDarabas_GuilhermeDarabas-Turma02-API">
-    <img src="https://sonarcloud.io/api/project_badges/measure?project=gmDarabas_GuilhermeDarabas-Turma02-API&metric=coverage" alt="Coverage" />
-  </a>
 </p>
 
 # Getting Started
